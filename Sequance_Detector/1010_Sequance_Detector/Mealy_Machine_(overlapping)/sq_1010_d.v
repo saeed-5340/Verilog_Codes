@@ -1,4 +1,4 @@
-module sq_1011_d(
+module sq_1010_d(
     input wire clk,
     input wire reset,
     input wire din,
@@ -40,10 +40,11 @@ module sq_1011_d(
             s3 : begin
                 if(din) begin
                     state <= s1;
+                end
+                else begin
+                    state <=s2;
                     dout <= 1;
                 end
-                else
-                    state <=s2;
             end
         endcase
     end

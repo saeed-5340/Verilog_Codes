@@ -3,5 +3,7 @@ module and_gate (
     input b,
     output y
 );
+
     assign y = a & b;
+    
 endmodule

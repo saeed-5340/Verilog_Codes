@@ -1,5 +1,5 @@
 $date
-	Wed Apr 08 19:26:50 2026
+	Fri Apr 17 02:49:50 2026
 $end
 $version
 	Icarus Verilog
@@ -8,13 +8,14 @@ $timescale
 	1ps
 $end
 $scope module and_gate_tb $end
-$var wire 1 ! y $end
+$var wire 1 ! z $end
 $var reg 1 " a $end
 $var reg 1 # b $end
 $scope module uut $end
 $var wire 1 " a $end
 $var wire 1 # b $end
-$var wire 1 ! y $end
+$var wire 1 $ y $end
+$var wire 1 ! z $end
 $upscope $end
 $upscope $end
 $enddefinitions $end
@@ -23,9 +24,10 @@ $dumpall
 $end
 #0
 $dumpvars
+0$
 0#
 0"
-0!
+z!
 $end
 #10000
 1#
@@ -33,6 +35,6 @@ $end
 0#
 1"
 #30000
-1!
+1$
 1#
 #40000

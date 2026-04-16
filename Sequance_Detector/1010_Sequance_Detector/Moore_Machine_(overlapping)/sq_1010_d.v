@@ -1,4 +1,4 @@
-module sq_1011_d(
+module sq_1010_d(
     input wire clk,
     input wire reset,
     input wire din,
@@ -21,8 +21,8 @@ always @(posedge clk or posedge reset) begin
             s0: if (din) state <= s1; else state <= s0;
             s1: if (din) state <= s1; else state <= s2;
             s2: if (din) state <= s3; else state <= s0;
-            s3: if (din) state <= s4; else state <= s2;
-            s4: if (din) state <= s1; else state <= s2;
+            s3: if (din) state <= s1; else state <= s4;
+            s4: if (din) state <= s3; else state <= s0;
             default: state <= s0;
         endcase
     end

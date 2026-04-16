@@ -1,13 +1,13 @@
 `timescale 1ns/1ps
 
-module sq_1011_d_tb;
+module sq_1010_d_tb;
 
     reg clk;
     reg reset;
     reg din;
     wire dout;
 
-    sq_1011_d uut(
+    sq_1010_d uut(
         .clk(clk),
         .reset(reset),
         .din(din),
@@ -29,7 +29,7 @@ module sq_1011_d_tb;
 
     initial begin
         $dumpfile("wave.vcd");
-        $dumpvars(0, sq_1011_d_tb);
+        $dumpvars(0, sq_1010_d_tb);
         reset = 1'b1;
         din = 1'b0;
         #5
@@ -44,18 +44,18 @@ module sq_1011_d_tb;
         test_bit(1);
         test_bit(0);
         test_bit(1);
-        test_bit(1);
+        test_bit(0);
 
 
         test_bit(1);
-        test_bit(1);
+        test_bit(0);
         test_bit(0);
         test_bit(1);
         test_bit(1);
 
         test_bit(0);
         test_bit(1);
-        test_bit(1);
+        test_bit(0);
         test_bit(0);
         test_bit(1);
         test_bit(0);

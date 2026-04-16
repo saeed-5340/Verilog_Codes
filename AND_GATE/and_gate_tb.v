@@ -3,13 +3,13 @@
 module and_gate_tb;
 
     reg a, b;
-    wire y;
+    wire z;
 
     // Instantiate DUT (Device Under Test)
     and_gate uut (
         .a(a),
         .b(b),
-        .y(y)
+        .z(z)
     );
 
     initial begin

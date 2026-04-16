@@ -1,0 +1,202 @@
+$date
+	Thu Apr 16 16:31:16 2026
+$end
+$version
+	Icarus Verilog
+$end
+$timescale
+	1s
+$end
+$scope module sq_1011_d_tb $end
+$var wire 1 ! dout $end
+$var reg 1 " clk $end
+$var reg 1 # din $end
+$var reg 1 $ reset $end
+$scope module uut $end
+$var wire 1 " clk $end
+$var wire 1 # din $end
+$var wire 1 $ reset $end
+$var parameter 2 % s0 $end
+$var parameter 2 & s1 $end
+$var parameter 2 ' s2 $end
+$var parameter 2 ( s3 $end
+$var reg 1 ! dout $end
+$var reg 2 ) state [1:0] $end
+$upscope $end
+$scope task apply_bit $end
+$var reg 1 * bit_in $end
+$upscope $end
+$upscope $end
+$enddefinitions $end
+$comment Show the parameter values. $end
+$dumpall
+b11 (
+b10 '
+b1 &
+b0 %
+$end
+#0
+$dumpvars
+x*
+b0 )
+1$
+0#
+0"
+0!
+$end
+#5
+1"
+#10
+0"
+#12
+1#
+1*
+0$
+#15
+b1 )
+1"
+#20
+0"
+#22
+0#
+0*
+#25
+b10 )
+1"
+#30
+0"
+#32
+1#
+1*
+#35
+b11 )
+1"
+#40
+0"
+#45
+1!
+b0 )
+1"
+#50
+0"
+#52
+0#
+0*
+#55
+0!
+1"
+#60
+0"
+#62
+1#
+1*
+#65
+b1 )
+1"
+#70
+0"
+#72
+0#
+0*
+#75
+b10 )
+1"
+#80
+0"
+#82
+1#
+1*
+#85
+b11 )
+1"
+#90
+0"
+#92
+0#
+0*
+#95
+b10 )
+1"
+#100
+0"
+#102
+1#
+1*
+#105
+b11 )
+1"
+#110
+0"
+#115
+1!
+b0 )
+1"
+#120
+0"
+#125
+b1 )
+0!
+1"
+#130
+0"
+#132
+0#
+0*
+#135
+b10 )
+1"
+#140
+0"
+#142
+1#
+1*
+#145
+b11 )
+1"
+#150
+0"
+#155
+1!
+b0 )
+1"
+#160
+0"
+#165
+b1 )
+0!
+1"
+#170
+0"
+#172
+0#
+0*
+#175
+b10 )
+1"
+#180
+0"
+#182
+1#
+1*
+#185
+b11 )
+1"
+#190
+0"
+#195
+1!
+b0 )
+1"
+#200
+0"
+#205
+b1 )
+0!
+1"
+#210
+0"
+#215
+1"
+#220
+0"
+#222
